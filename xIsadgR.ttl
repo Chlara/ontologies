@@ -145,7 +145,7 @@ xisadgr:ArchivalDescription a rdfs:Class ;
         rdfs:domain xisadgr:Identity ;
         rdfs:range xsd:string ; 
       .
-      ###  https://github.com/KOST-CECO/ontologies/blob/master/xisadgr#hasTitle
+      ###  https://github.com/KOST-CECO/ontologies/blob/master/xisadgr#hasTitle 
       xisadgr:hasTitle a rdf:Property ;
         rdfs:label "hasTitle [dct:title]" ;
         rdfs:comment 
