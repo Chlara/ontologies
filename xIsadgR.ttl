@@ -160,6 +160,7 @@ xisadgr:ArchivalDescription a rdfs:Class ;
       .
       ###<a href="#hasCreatedDateRange">https://github.com/Chlara/ontologies/raw/master/xIsadgR.ttl#hasCreatedDateRange</a> 
       xisadgr:hasCreatedDateRange a rdf:Property ;
+        a void:Linkset ;
         rdfs:label "hasCreatedDateRange [dct:date, dct:created]" ;
         rdfs:comment 
           "1.3) Entstehungszeitraum / Laufzeit: Identifizierung des Entstehungsdatums bzw. -zeitraums der in der Verzeichnungseinheit enthaltenen Unterlagen"@de ,
