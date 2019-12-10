@@ -3,7 +3,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xisadgr: <https://github.com/KOST-CECO/ontologies/blob/master/xisadgr#> .
+@prefix xisadgr: <https://github.com/KOST-CECO/ontologies/raw/master/xIsadgR.ttl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 @prefix sh: <http://www.w3.org/ns/shacl#> .
@@ -169,7 +169,7 @@ xisadgr:ArchivalDescription a rdfs:Class ;
         rdfs:range xisadgr:DateRange ; 
         rdfs:subPropertyOf dct:date, dct:created ;
       .
-      ###  https://github.com/KOST-CECO/ontologies/blob/master/xisadgr#hasCreatedDatePoint
+      ###  id="hasCreatedDatePoint"
       xisadgr:hasCreatedDatePoint a rdf:Property ;
         rdfs:label "hasCreatedDatePoint [dct:created]" ;
         rdfs:comment 
