@@ -147,6 +147,7 @@ xisadgr:ArchivalDescription a rdfs:Class ;
       .
       ###  https://github.com/KOST-CECO/ontologies/blob/master/xisadgr#hasTitle 
       xisadgr:hasTitle a rdf:Property ;
+        a void:Dataset;
         rdfs:label "hasTitle [dct:title]" ;
         rdfs:comment 
           "1.2) Titel: Benennung der Verzeichnungseinheit"@de ,
@@ -157,7 +158,7 @@ xisadgr:ArchivalDescription a rdfs:Class ;
         rdfs:range xsd:string ; 
         rdfs:subPropertyOf dct:title ;
       .
-      <a href="#hasCreatedDateRange">https://github.com/Chlara/ontologies/raw/master/xIsadgR.ttl#hasCreatedDateRange</a> 
+      ###<a href="#hasCreatedDateRange">https://github.com/Chlara/ontologies/raw/master/xIsadgR.ttl#hasCreatedDateRange</a> 
       xisadgr:hasCreatedDateRange a rdf:Property ;
         rdfs:label "hasCreatedDateRange [dct:date, dct:created]" ;
         rdfs:comment 
@@ -169,7 +170,7 @@ xisadgr:ArchivalDescription a rdfs:Class ;
         rdfs:range xisadgr:DateRange ; 
         rdfs:subPropertyOf dct:date, dct:created ;
       .
-      id="hasCreatedDatePoint"
+      ###id="hasCreatedDatePoint"
       xisadgr:hasCreatedDatePoint a rdf:Property ;
         rdfs:label "hasCreatedDatePoint [dct:created]" ;
         rdfs:comment 
